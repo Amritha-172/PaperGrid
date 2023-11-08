@@ -1,0 +1,349 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: static;
+}
+.wrapper{
+width: 100vw;
+height: 100%;
+overflow-x: hidden; 
+padding: 0 !important;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+header{
+background-color:rgb(252, 249, 249);
+   
+
+}
+.header1{
+    width: 100%;
+height: 50px;
+background-color: black;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 1px;
+
+}
+.header2{
+width: 100%;
+height: 80px;
+background-color: black;
+position:sticky;
+
+
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+.nav-menu{
+    width: 20%;
+    height: 100%;
+    
+    display: none;
+}
+
+.nav1{
+    width: 20%;
+      height: 80px;
+      
+}
+.img{
+    width: 50%;
+     
+        height: 40px;
+  
+  display: flex;
+  align-items: center;
+    }
+
+    .img1{
+        width: 100%;
+        height: auto;
+    }
+.nav2{
+    width: 60%;
+    display: flex;
+   
+    
+}
+.nav2-inner{
+    width: 40%;
+    height: 80px;
+    justify-content: space-between;
+    color: rgb(197,189,189);
+    text-decoration: none;
+}
+
+.nav3{
+    width: 20%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.nav3-inner{
+    width: 30%;
+   
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+   
+
+.profile-1{
+   width: 60%;
+   height: 90px;
+   
+     
+   
+}.icon{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.bag-1{
+    width:100%;
+    height: 90px;
+}
+.nav2-text:hover{
+   text-decoration: underline white!important;
+   color: white!important;
+   
+
+}
+#container1{
+width: 100%;
+height: 100%;
+
+margin-top: 40px;
+}
+
+.image{
+    width: 95%;
+    height: 100%;
+}
+#container2{
+
+    width: 100%;
+
+    
+   
+}
+#row1{
+    width: 100%;
+    
+  
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+#picture{
+    width: 40%;
+
+   
+}
+
+.rohil{
+    width: 80%;    
+  
+    
+}
+.quotes{
+    width: 50%!important;
+margin-top: 100px!important;
+   height: 300px!important;
+    
+}
+.btn{
+    width:  150px;
+    height: 50px;
+
+}
+.footer{
+  
+    width: 100%;
+   height: 100%;
+   background-color: antiquewhite;
+    
+}
+.content{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background:black;
+   
+}
+.fa-brands{
+    font-size: 30px;
+    color: white;
+}
+.footer2{
+    width: 100%;
+    height: 100px;
+    margin-top: 1px;
+    background:black;
+}
+.inner-footer{
+    width: 100%;
+    
+    /* transform: translateY(5rem); */
+    padding-left: 200px; 
+    
+    
+    
+}
+.date{
+color:rgb(189, 183, 177);
+}
+.paper{
+    color: rgb(189, 183, 177);
+}
+.powered{
+    color: rgb(189, 183, 177);
+}
+.refund{
+    color: rgb(189, 183, 177); 
+}
+.privacy{
+    color: rgb(189, 183, 177);
+}
+.term{
+    color: rgb(189, 183, 177);
+}
+.shipping{
+    color: rgb(189, 183, 177);
+}.contact{
+    color: rgb(189, 183, 177);
+}
+.menu{
+   width: 90%;
+   height: 70vh;
+
+   display: none;
+   background-color: black; 
+}
+.login{
+    padding-top: 100px;
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    display: flex;
+    
+    
+}
+.break1{
+    display: none;
+}
+.break{
+    display: none;  
+}
+.paper:hover{
+    text-decoration: underline!important;
+    color: white;
+}
+.powered:hover{
+    text-decoration: underline!important;
+    color: white;
+}
+.refund:hover{
+    text-decoration: underline!important;
+    color: white;
+}
+.term:hover{
+    text-decoration: underline!important;
+    color: white;
+}
+.shipping:hover{
+    text-decoration: underline!important;
+    color: white;
+}
+.contact:hover{
+    text-decoration: underline!important;
+    color: white;
+}
+.privacy:hover{
+    text-decoration: underline!important;
+    color: white;
+}
+.num:hover{
+    color: white!important;
+}
+
+
+
+
+
+/* media querie */
+@media screen and (max-width:990px){
+    .nav2{
+        display: none;
+    }
+    .nav-menu{
+        
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    
+   nav {
+    display: flex;
+    justify-content: space-between;
+   }
+   .inner-footer{
+    width: 100%;
+    padding-left: 50px;
+     font-size: 13px;
+   }
+   .break1{
+    display: block;
+   }
+   
+}
+@media(max-width:750px){
+    #logo{
+        display: none;
+    } 
+    .quotes{
+     width: 100%!important;
+     margin-top: 0!important;
+    }
+#picture{
+    width: 105%!important;
+
+}
+.rohil{
+    width: 100%!important;
+}
+.break{
+    display: block;
+}
+}
+
+
+@media(min-height:0){
+    header{
+        position: sticky!important;
+        top: -40px;
+        z-index: 1;
+    }
+}
+
